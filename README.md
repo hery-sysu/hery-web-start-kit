@@ -1,7 +1,5 @@
-<<<<<<< HEAD
-# dingdong-wechat-web
-
-> This is xplan dingdong web project by vue.js.
+# hery-web-start-kit
+This is my web start kit! Just pull down and run cmd 'npm run dev'
 
 ## Build Setup
 
@@ -26,7 +24,3 @@ npm test
 ```
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
-=======
-# hery-web-start-kit
-This is my web start kit! Just pull down and run cmd 'npm run dev'
->>>>>>> 05b33b7eb8d76824c70d96f2a8d403fedbcdc982
