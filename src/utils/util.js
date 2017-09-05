@@ -1,18 +1,8 @@
 import md5 from 'js-md5'
 
 export const wxConfig = {
-  appID: 'wx369b6c326eb816ec',
-  appsecret: '07de7ef0cb8eddb96d7d0786ed6a9f13'
-}
-
-export const setValueToLocalStorage = (key, value) => {
-  let storage = window.localStorage
-  storage.setItem('dingdong-wechat-' + key, value)
-}
-
-export const getValueFromLocalStorage = (key) => {
-  let storage = window.localStorage
-  return storage.getItem('dingdong-wechat-' + key)
+  appID: 'wx123456789',
+  appsecret: 'dajhbdjhxxxxxxxxxxx'
 }
 
 export const getWechatOauthURL  = (redirectURL) => {
@@ -58,7 +48,7 @@ export const object2ParamString = (object) => {
   return paramArray.join('&')
 }
 
-export const getParamString = (data = {}, appkey = 'ab060345dc344870ac66a8a5cf84ff10', salt = 'dd069584620d4088975de863218e8742') => {
+export const getParamString = (data = {}, appkey = '', salt = '') => {
   let params = {}
   let item
   params.appkey = appkey

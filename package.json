@@ -1,7 +1,7 @@
 {
   "name": "xplan-wechat-web",
   "version": "1.0.0",
-  "description": "This is xplan wechat web project by vue.js.",
+  "description": "This is a web start kit vue.js.",
   "author": "hery",
   "private": true,
   "scripts": {

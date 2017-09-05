@@ -79,4 +79,3 @@ export const getDingDongUserInfo = ({ commit, state }) => {
     commit(types.GET_DINGDONG_USERINFO, reply)
   })
 }
-
